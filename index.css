@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(Inter-VariableFont_slntwght.ttf);
+}
+
+#main-container {
+  width: 550px;
+  height: 729px;
+  background: #f4f4f4;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#top-container {
+  width: 550px;
+  height: 285px;
+  background: #6943ff;
+}
+
+#heading {
+  width: 448.4px;
+  height: 38px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  color: white;
+
+  margin: 33px 50.6px 30px 51px;
+}
+
+#convert-box {
+  box-sizing: border-box;
+  width: 117px;
+  height: 83px;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  background-color: #6943ff;
+  color: white;
+
+  margin: 0 216px 25px 217px;
+  text-align: center;
+
+  font-family: Inter;
+  font-weight: 800;
+  font-size: 58px;
+}
+
+#convert-btn {
+  width: 117px;
+  height: 42px;
+  margin: 0 216px 34px 217px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+
+  background: white;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #3d3d3d;
+}
+
+.group {
+  width: 500px;
+  height: 108.57px;
+  background: white;
+  border-radius: 4.68077px 0px 0px 0px;
+  margin: 36px 25px 23.43px 25px;
+  display: block;
+}
+
+.unit-txt {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: #5a537b;
+}
+
+.converted-units {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #353535;
+}
